@@ -13,10 +13,18 @@
 </head>
 <body>
 <script>
-    let num =1
-    for( i= 1; i <=20; i++ ){
-        num = i*2 + ";";
-        document.write( num )
+
+    // for( i= 1; i <=20; i++ ){
+    //     num = i*2 + ";";
+    //     document.write( num )
+    // }
+    let dem = 0
+    let so = 1
+    while ( dem < 20){
+        if ( so % 2 == 0 ){
+            document.write( so); dem++
+        };
+        so++
     }
 </script>
 </body>
